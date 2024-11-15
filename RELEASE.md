@@ -1,0 +1,13 @@
+- mvn verify
+- mvn versions:display-dependency-updates
+- mvn versions:display-plugin-updates
+- mvn clean install
+- update HISTORY.md
+- change version in pom.xml
+- push and wait for build
+- create tag jdeb-VERSION
+- push and wait for build
+- login to https://oss.sonatype.org/
+- staging repositories
+- close
+- release
